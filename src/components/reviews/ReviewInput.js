@@ -25,14 +25,14 @@ class ReviewInput extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input 
+          <input
             type="text"
             name="text"
             value={this.state.text}
             onChange={this.handleChange}
             placehoder="Review text"
           />
-          <input 
+          <input
             type="submit"
             value="Submit Review"
           />
